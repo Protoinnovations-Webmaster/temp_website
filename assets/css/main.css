@@ -136,12 +136,12 @@
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #00D3B7;
+			color: #2f5597;
 		}
 
 	strong, b {
 		font-weight: 400;
-		color: #555;
+		color: #ffc000;
 	}
 
 	em, i {
@@ -156,7 +156,7 @@
 		font-weight: 400;
 		line-height: 1.25;
 		margin: 0 0 0.5em 0;
-		color: #555;
+		color: #ffc000;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -266,7 +266,7 @@
 		background-color: transparent;
 		border-radius: 4px;
 		border: solid 1px #ccc;
-		color: #555;
+		color: #ffc000;
 		cursor: pointer;
 		display: inline-block;
 		line-height: 1;
@@ -281,8 +281,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			border-color: #00D3B7;
-			color: #00D3B7;
+			border-color: #2f5597;
+			color: #2f5597;
 		}
 
 			input[type="submit"]:hover:active,
@@ -358,7 +358,7 @@
 	}
 
 	label {
-		color: #555;
+		color: #ffc000;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 400;
@@ -398,7 +398,7 @@
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #00D3B7;
+			border-color: #2f5597;
 		}
 
 	.select-wrapper {
@@ -501,15 +501,15 @@
 
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
-			background-color: #555;
-			border-color: #555;
+			background-color: #ffc000;
+			border-color: #ffc000;
 			color: #fff;
 			content: '\f00c';
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #00D3B7;
+			border-color: #2f5597;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -890,7 +890,7 @@
 					top: 0;
 					width: 100%;
 					height: 100%;
-					box-shadow: inset 0 0 0 2px #00D3B7, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
+					box-shadow: inset 0 0 0 2px #2f5597, inset 0 0 0px 3px rgba(0, 0, 0, 0.15);
 					opacity: 0;
 					z-index: 1;
 				}
